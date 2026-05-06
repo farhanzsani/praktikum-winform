@@ -8,12 +8,14 @@ namespace praktikum_winform
 {
     public class User
     {
+        public int Id { get; set; }
         public string nama {  get; set; }
         public int umur { get; set; }
         public string asal { get; set; }
 
-        public User(string nama, int umur, string asal)
+        public User(int Id, string nama, int umur, string asal)
         {
+            this.Id = Id;
             this.nama = nama;
             this.umur = umur;
             this.asal = asal;

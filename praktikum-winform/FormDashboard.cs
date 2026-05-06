@@ -21,6 +21,9 @@ namespace praktikum_winform
             lb_SelamatDatang.Text += this.usernames;
             this.data = buatData();
             dg_DataDashboard.DataSource = data;
+
+            dg_DataDashboard.Columns["bt_HapusData"].DisplayIndex = dg_DataDashboard.Columns.Count - 1;
+            dg_DataDashboard.Columns["bt_EditData"].DisplayIndex = dg_DataDashboard.Columns.Count - 2;
         }
 
     public List<User> buatData()
@@ -28,7 +31,7 @@ namespace praktikum_winform
             List<User> data = new List<User>();
             for (int i = 0; i < 5; i++)
             {
-                User user = new User($"Budi{i}", 21, "Jember");
+                User user = new User(1,"Budi{i}", 21, "Jember");
                 data.Add(user);
             }
             return data;
