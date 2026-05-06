@@ -1,6 +1,6 @@
 ﻿namespace praktikum_winform
 {
-    partial class Form1
+    partial class FromLogin
     {
         /// <summary>
         ///  Required designer variable.

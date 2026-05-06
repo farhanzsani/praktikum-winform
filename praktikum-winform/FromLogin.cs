@@ -1,11 +1,11 @@
 namespace praktikum_winform
 {
-    public partial class Form1 : Form
+    public partial class FromLogin : Form
     {
         private string usename;
         private string password;
 
-        public Form1()
+        public FromLogin()
         {
             InitializeComponent();
             usename = "Admin";
