@@ -108,6 +108,7 @@
             bt_Simpan.TabIndex = 7;
             bt_Simpan.Text = "Simpan";
             bt_Simpan.UseVisualStyleBackColor = true;
+            bt_Simpan.Click += bt_Simpan_Click;
             // 
             // bt_Batal
             // 
@@ -117,6 +118,7 @@
             bt_Batal.TabIndex = 8;
             bt_Batal.Text = "Batal";
             bt_Batal.UseVisualStyleBackColor = true;
+            bt_Batal.Click += bt_Batal_Click;
             // 
             // FormTambahorEdit
             // 

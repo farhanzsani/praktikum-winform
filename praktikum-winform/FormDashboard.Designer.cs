@@ -55,6 +55,7 @@
             dg_DataDashboard.RowHeadersWidth = 62;
             dg_DataDashboard.Size = new Size(1008, 530);
             dg_DataDashboard.TabIndex = 1;
+            dg_DataDashboard.CellContentClick += dg_DataDashboard_CellContentClick;
             // 
             // bt_TambahData
             // 
@@ -64,6 +65,7 @@
             bt_TambahData.TabIndex = 2;
             bt_TambahData.Text = "Tambah";
             bt_TambahData.UseVisualStyleBackColor = true;
+            bt_TambahData.Click += bt_TambahData_Click;
             // 
             // bt_EditData
             // 

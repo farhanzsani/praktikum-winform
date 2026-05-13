@@ -11,7 +11,8 @@ namespace praktikum_winform
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new FromLogin());
+            // Ubah agar menjalankan FormUtama
+            Application.Run(new FormUtama());
         }
     }
 }

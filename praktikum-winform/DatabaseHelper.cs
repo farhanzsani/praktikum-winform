@@ -12,9 +12,9 @@ namespace praktikum_winform
         private string connString =
           "Host=localhost;" +  // server PostgreSQL
           "Port=5432;" +  // port default PostgreSQL
-          "Database=DatabasePBO;" +  // nama database
-          "Username=postgres;" +  // username
-          "Password=20050119";  // password
+          "Database=PBO-try;" +  // nama database
+          "Username=farhanzsani;" +  // username
+          "Password=6yLwsk85";  // password
 
         public List<User> getAllData()
         {
