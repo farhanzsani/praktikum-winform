@@ -36,5 +36,10 @@ namespace praktikum_winform
         {
 
         }
+
+        private void lblSubJudul_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
